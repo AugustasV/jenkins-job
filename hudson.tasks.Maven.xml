@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.tasks.Maven_-DescriptorImpl>
+  <installations>
+    <hudson.tasks.Maven_-MavenInstallation>
+      <name>Maven</name>
+      <properties>
+        <hudson.tools.InstallSourceProperty>
+          <installers>
+            <hudson.tasks.Maven_-MavenInstaller>
+              <id>3.6.2</id>
+            </hudson.tasks.Maven_-MavenInstaller>
+            <hudson.tools.ZipExtractionInstaller>
+              <label>Maven file</label>
+              <url>http://ftp.man.poznan.pl/apache/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.tar.gz</url>
+            </hudson.tools.ZipExtractionInstaller>
+          </installers>
+        </hudson.tools.InstallSourceProperty>
+      </properties>
+    </hudson.tasks.Maven_-MavenInstallation>
+  </installations>
+</hudson.tasks.Maven_-DescriptorImpl>
